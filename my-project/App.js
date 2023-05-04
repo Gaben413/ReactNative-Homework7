@@ -51,21 +51,21 @@ function App() {
         <Tab.Screen
           name="Feed"
           component={FeedScreen}
-          options={{tabBarLabel: 'Home', tabBarIcon: () => (
+          options={{tabBarLabel: 'News', tabBarIcon: () => (
             <Entypo name="news" color="black" size={24} />
           )}}
         />
         <Tab.Screen
           name="Profile"
           component={ProfileScreen}
-          options={{tabBarLabel: 'Home', tabBarIcon: () => (
+          options={{tabBarLabel: 'Profile', tabBarIcon: () => (
             <Entypo name="user" color="black" size={24} />
           )}}
         />
         <Tab.Screen
           name="Settings"
           component={SettingsScreen}
-          options={{tabBarLabel: 'Home', tabBarIcon: () => (
+          options={{tabBarLabel: 'Settings', tabBarIcon: () => (
             <Entypo name="cog" color="black" size={24} />
           )}}
         />
